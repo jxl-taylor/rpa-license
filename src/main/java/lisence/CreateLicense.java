@@ -37,7 +37,7 @@ public class CreateLicense {
 	// 为了方便直接用的API里的例子
 	// X500Princal是一个证书文件的固有格式，详见API
 	private final static X500Principal DEFAULTHOLDERANDISSUER = new X500Principal(
-			"CN=Duke、OU=JavaSoft、O=Sun Microsystems、C=US");
+			"CN=microrule、OU=mr-bot、O=mr-bot、C=CN");
 
 	public void setParam(String propertiesPath) {
 		// 获取参数

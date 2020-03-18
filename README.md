@@ -16,13 +16,3 @@ keytool -export -alias privatekey -file certfile.cer -keystore privateKeys.store
 keytool -import -alias publiccert -file certfile.cer -keystore publicCerts.store
 最后生成文件privateKeys.store、publicCerts.store拷贝出来备用。
 
-
-### 更新包制作：
-1、新建文件夹，名字随便取，例如 version1
-2、将sql脚本文件(例如1.sql) 、文件、文件夹 放到文件夹 version1 中  
-3、新建checklist.properties, 格式：
-sql|1.sql=run
-file|rpa-client.jar=/
-dir|dir1=dir/dir2   表明将dir1下的内容放在安装目录的 dir\dir2下面
-属性值为文件所方目录
-3、将这个文件夹压缩为zip包，并改后缀名为mbot
