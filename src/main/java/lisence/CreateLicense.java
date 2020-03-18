@@ -4,7 +4,6 @@ package lisence;
  * Created by feng on 2020/2/28
  */
 
-import cn.hutool.core.io.FileUtil;
 import de.schlichtherle.license.*;
 
 import javax.security.auth.x500.X500Principal;
